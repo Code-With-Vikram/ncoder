@@ -1,0 +1,141 @@
+@media screen and (max-width:1365px) {
+    .heros{margin-top: 80px;padding-top: 60px;}
+    .contact-form{right: 15px;max-width: 35%;}
+    .search-item{left: -190px;}
+}
+@media screen and (max-width:1279px) {
+    .logo img{height: 40px;}
+    #header{padding: 15px 0;}
+    .banner-content >h1{font-size: 48px;max-width: 75%;}
+    .heros {padding-bottom: 50px;}
+    .news-box-items{padding: 40px 0px;}
+    .news-text-field-box{padding-right: 15px;}
+    .my-skills-content{padding-left: 0;padding-bottom: 0;}
+    .my-skiils-box{padding: 0;}
+    .course-card-content h4{font-size: 16px;}
+    .course-card{padding: 35px 0;}
+    .course-img{padding-top: 0;}
+    .course-card-img img{width: 40px;}
+    .my-blogs-col{width: 60%;}
+    .contact-form{max-width: 42%;}
+    .form{row-gap: 20px;}
+    .footer{margin-top: 90px;}
+    .search-item.search input{width: 85%;}
+    .search-item{left: -160px;}
+}
+
+@media screen and (max-width:991px) {
+    .logo img{height: 35px;}
+    .header-btn a:nth-child(2){padding: 12px 28px;}
+    .banner-content >h1{font-size:38px;}
+    .banner-scroll{margin-top: 30px;}
+    .news-content-col,.news-text-field-box,.client-responser-items{width: 50%;}
+    .news-text-field{width: 100%;}
+    .news-item{text-align: left;}
+    .news-text-field{padding: 25px 15px;}
+    .news-box-items{padding: 30px 0;}
+    .section-title-content p,.news-text-field input, .news-text-field input::placeholder{font-size: 14px;line-height: 20px;}
+    .section-title-content h2{font-size: 34px;}
+    .my-skills-content > p{padding-top: 10px;}
+    .skills-inner-item,.my-skills-content a{padding-top: 15px;}
+    .my-skils{margin-top: 20px;}
+    .courses,.my-blogs,.client,.portfolio{margin-top: 50px;}
+    .course-card-content h4{font-size: 14px;}
+    .course-card-img{padding-bottom: 15px;}
+    .course-card{padding: 25px 0;}
+    .course-card-img img{width: 30px;}
+    .my-blogs-img-col{width: 40%;}
+    .my-blogs-col,.social-items-col{width: 50%;}
+    .social-icons-items{column-gap: 30px;}
+    .social-icon img{width: 30px;}
+    .social-icon a,.get-items-box a{font-size: 14px;}
+    .portfolio-three-d a{font-size: 16px;padding: 8px 20px;}
+    .portfolio-three-d h3{font-size: 22px;}
+    .form{row-gap: 15px;}
+    .contact-form{max-width: 48%;}
+    .contact-form h2{font-size: 20px;padding: 20px 0;}
+    .get-items-img img{width: 25px;}
+    .get-items-img{width: 50px;height: 50px;}
+    .form-half-box{padding: 0;width: calc(50% - 10px);}
+    .form{padding-left: 15px;padding-right: 15px;column-gap: 10px;}
+    .get-in{margin-top: 120px;}
+    .search-item.search input{width: 100%;border: 1px solid #ccc;}
+    .search-item{top: 180%;}
+    .sticky .search-item{top: calc(180% - 13%);}
+}
+
+@media screen and (max-width:767px) {
+    .menu ul{display: block; position: fixed;left:-100%;top:65px;background-color: #000;width:0;height: 100vh;transition: all 0.5s;padding-top: 50px;padding-left: 15px;z-index: 1;}
+    .header-btn a:nth-child(2) {padding: 10px 20px;font-size: 14px;}
+    .header-btn a img{width: 20px;}
+    .header-btn{padding-left: 0;}
+    .logo{padding-right: 0;}
+    .menu.fixed ul{left: 0;width: 100%;}
+    .menu ul li a{color: #fff;display: inline-block;padding: 15px 0;}
+    .toggle-btn{display: block;}
+    .banner-content >h1 {font-size: 34px;max-width: 100%;}
+    .heros{margin-top: 65px;}
+    .banner-content >p::after{width: 70px;}
+    .news-content-col, .news-text-field-box,.my-skills-img-col,.client-responser-items,.contact-form-col{width: 100%;}
+    .my-skills-img{margin-bottom: 40px;}
+    .news-item{padding-bottom: 30px;}
+    .client-content{padding-bottom: 50px;}
+    .section-title-content h2{font-size: 30px;}
+    .my-skills-content{padding-bottom: 0;}
+    .skills-inner-item, .my-skills-content a{padding-top: 20px;font-size: 14px;}
+    .my-skills-content a::after{width: 60px;right: -70px;}
+    .my-blogs-items a::after{background-size: 45px;bottom: 1px;}
+    .service,.social-media{margin-top: 30px;}
+    .caourses-box-col,.course-img-col,.social-items-col{width: 100%;}
+    .social-icons-items{justify-content: space-evenly;}
+    .course-card{padding: 35px 0;}
+    .course-card-img{padding-bottom: 20px;}
+    .course-img{padding-top: 50px;}
+    .skills-inner-item h4{font-size: 16px;}
+    .skills-inner-item > p{font-size: 16px;}
+    .portfolio-three-d a{font-size: 14px;}
+    .portfolio-three-d span img{margin: 0 15px;}
+    .portfolio-three-d h3{padding-left: 30px;font-size: 18px;}
+    .contact-form{position: static;}
+    .contact-form{max-width: 100%;}
+    .get-in{margin-top: 50px;}
+    .footer{margin-top: 50px;}
+    .search-item.search input{border: 1px solid #ccc;}
+    .search-item{top: 50%;left: -200px;}
+
+    .sticky .menu ul{top: calc(65px - 10px);}
+    .sticky .search-item{top:50%;}
+
+}
+
+
+@media screen and (max-width:575px) {
+    .banner-content-col{width: 100%;}
+    .banner-content >h1{font-size: 26px;}
+    .banner-img{margin-top: 50px;}
+    .banner-scroll,.get-items-box{margin-top: 20px;}
+    .news-item{padding-bottom: 20px;}
+    .section-title-content h2{font-size: 26px;}
+    .news-text-field{padding: 20px 10px;}
+    .skills-inner-item h4,.section-title-content p{font-size: 12px;}
+    .my-skiils-box{padding-top: 0;}
+    .my-skills-content{padding-bottom: 0;}
+    .course-card-col{width: 50%;}
+    .course-card-col:nth-child(3){margin-top: 30px;}
+    .course-card-img{padding-bottom: 15px;}
+    .client-content{padding-bottom: 40px;}
+    .social-icon img{width: 20px;}
+    .social-icon a{font-size: 12px;}
+    .portfolio-items-col{width: 100%;}
+    .portfolio-items-col:nth-child(3),.portfolio-items-col:nth-child(2){margin-top: 20px;}
+    .form-half-box input{padding: 10px 10px;border-radius: 5px;}
+    .form-half-box input[type="submit"]{margin-bottom: 25px;}
+    .get-items-img img{width: 20px;}
+    .get-items-img{height: 40px;width: 40px;}
+    .footer-box p{font-size: 14px;}
+    .footer{margin-top: 30px;}
+    .search-item.search input{border: 1px solid #ccc;}
+    .search-item{top: 185%;left: -103px;}
+    .sticky .search-item{top:calc(180% - 7%);}
+
+}
